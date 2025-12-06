@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.1",
+  "updated": "2025-06-01T09:00:00Z",
+  "maps": {
+    "actions": {
+      "version": "v2",
+      "file": "dogProfile_v2.json",
+      "checksum": "sha256-f56a31b4707b38684c95d70bdfc4c72d9fbce3be51bc50dcdc58a33f725f1dcb",
+      "note": "Now includes labels, values, and emojis in single file"
+    },
+    "objectives": {
+      "version": "v1",
+      "file": "ppObjectives_v1.json",
+      "checksum": "sha256-585111801b8b63a0337147b643a098bda55c704aee3b224821daba85ad25bc08"
+    },
+    "treats": {
+      "version": "v1",
+      "file": "treats_v1.json",
+      "checksum": "sha256-26b35b20ad3d4d069cee81b07a9e758fd8a1a4bf9c4c6595936841188b293ef0"
+    }
+  },
+  "deprecated": {
+    "emojis_v1.json": "Merged into dogProfile_v2.json",
+    "dogProfile_v1.json": "Superseded by dogProfile_v2.json",
+    "_map__dogProfile.json": "Duplicate, remove"
+  }
+}

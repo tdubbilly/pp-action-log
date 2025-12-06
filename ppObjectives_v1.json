@@ -1,0 +1,64 @@
+{
+  "title": "Dog Parent Objectives Map",
+  "version": "v1",
+  "updated": "2025-11-01T09:00:00Z",
+  "boredom": {
+    "icon": "🧩",
+    "title": "Boredom",
+    "primary": {
+      "1": "Peace of mind",
+      "2": "Dog is actively watched",
+      "3": "Better than crate",
+      "4": "Cheaper than in-home",
+      "5": "Safer under professionals",
+      "6": "Healthier social outlet"
+    },
+    "extra": {
+      "1": "Learns basic commands",
+      "2": "Understands hierarchy",
+      "3": "Builds clear boundaries"
+    }
+  },
+  "new_dog": {
+    "icon": "🆕",
+    "title": "New Dog",
+    "primary": {
+      "1": "Supervised play smooths bonding",
+      "2": "Structured outlet reduces rivalry",
+      "3": "Prevents rehearsing bad habits"
+    },
+    "extra": {
+      "1": "Parallel play & controlled intros",
+      "2": "Handler-guided turn taking",
+      "3": "Crate/place practice between sessions"
+    }
+  },
+  "no_time": {
+    "icon": "⏱️",
+    "title": "Don’t Have Time",
+    "primary": {
+      "1": "Less guilt",
+      "2": "Dog comes home happier",
+      "3": "Dog has less pent-up energy"
+    },
+    "extra": {
+      "1": "Built-in workout & play blocks",
+      "2": "Predictable schedule & routine",
+      "3": "Easy add-ons like bath/nails"
+    }
+  },
+  "manners": {
+    "icon": "🙂",
+    "title": "Social Manners",
+    "primary": {
+      "1": "Less reactive on walks",
+      "2": "Better in public outings",
+      "3": "Overall better manners"
+    },
+    "extra": {
+      "1": "Reinforcement of basics",
+      "2": "Calm check-ins with humans",
+      "3": "Practice settling between play blocks"
+    }
+  }
+}

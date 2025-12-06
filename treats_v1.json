@@ -1,0 +1,5 @@
+{
+  "version": "v1",
+  "allowed_enum": ["yes","no","limited"],
+  "restriction_examples": ["no chicken","grain-free","low-calorie only"]
+}

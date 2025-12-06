@@ -1,0 +1,42 @@
+{
+  "title": "Dog Profile Actions",
+  "version": "2.0.0",
+  "updated": "2025-06-01T09:00:00Z",
+  "changelog": [
+    {
+      "version": "2.0.0",
+      "date": "2025-06-01",
+      "changes": [
+        "Consolidated label, value, and emoji into single file",
+        "Switched from object keys to array format for ordering"
+      ]
+    }
+  ],
+  "play": [
+    {"id": 1, "label": "Ball", "value": "Playing ball", "emoji": "🎾"},
+    {"id": 2, "label": "Wrestling", "value": "Wrestling", "emoji": "🤼"},
+    {"id": 3, "label": "Romping", "value": "Romping around", "emoji": "🐾"},
+    {"id": 4, "label": "Toys", "value": "Exploring toys", "emoji": "🧸"},
+    {"id": 5, "label": "Chasing", "value": "Chasing each other", "emoji": "🏃"},
+    {"id": 6, "label": "Exploring", "value": "Exploring the room", "emoji": "🔎"},
+    {"id": 7, "label": "Puzzle", "value": "Puzzle toy", "emoji": "🧩"},
+    {"id": 8, "label": "Zoomies", "value": "Zoomies", "emoji": "⚡"},
+    {"id": 9, "label": "Lone wolf", "value": "Lone wolf", "emoji": "🦊"}
+  ],
+  "rest": [
+    {"id": 1, "label": "Resting", "value": "Resting", "emoji": "😴"},
+    {"id": 2, "label": "Napping", "value": "Napping", "emoji": "🛌"},
+    {"id": 3, "label": "Cuddle pile", "value": "Cuddle pile", "emoji": "🤗"},
+    {"id": 4, "label": "Calm walk", "value": "Calm walk", "emoji": "🚶"},
+    {"id": 5, "label": "Calm settle", "value": "Calm settle", "emoji": "🧘"},
+    {"id": 6, "label": "On playset", "value": "Resting on playset", "emoji": "🪜"},
+    {"id": 7, "label": "With counselor", "value": "Snuggling with counselor", "emoji": "🫶"}
+  ],
+  "misc": [
+    {"id": 1, "label": "Peed", "value": "Peed", "emoji": "🚰"},
+    {"id": 2, "label": "Pooped", "value": "Pooped", "emoji": "💩"},
+    {"id": 3, "label": "Water", "value": "Drinking water", "emoji": "🫗"},
+    {"id": 4, "label": "Barking", "value": "Barking", "emoji": "🗣️"},
+    {"id": 5, "label": "Guarding", "value": "Guarding the room", "emoji": "🛡️"}
+  ]
+}

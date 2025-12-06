@@ -1,8 +1,15 @@
 {
   "title": "Dog Profile Actions",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "updated": "2025-12-06",
   "changelog": [
+    {
+      "version": "2.1.0",
+      "date": "2025-12-06",
+      "changes": [
+        "Added solo and group message templates for natural sentence generation"
+      ]
+    },
     {
       "version": "2.0.2",
       "date": "2025-12-06",
@@ -27,32 +34,32 @@
     }
   ],
   "play": [
-    {"id": 1, "label": "Ball", "value": "Playing ball", "emoji": "🎾"},
-    {"id": 2, "label": "Wrestling", "value": "Wrestling", "emoji": "🤼"},
-    {"id": 3, "label": "Romping", "value": "Romping around", "emoji": "🐾"},
-    {"id": 4, "label": "Toys", "value": "Exploring toys", "emoji": "🧸"},
-    {"id": 5, "label": "Chasing", "value": "Chasing each other", "emoji": "🏃"},
-    {"id": 6, "label": "Exploring", "value": "Exploring the room", "emoji": "🔎"},
-    {"id": 7, "label": "Puzzle", "value": "Puzzle toy", "emoji": "🧩"},
-    {"id": 8, "label": "Zoomies", "value": "Zoomies", "emoji": "⚡"},
-    {"id": 9, "label": "Lone wolf", "value": "Lone wolf", "emoji": "🦊"},
-    {"id": 10, "label": "Bubbles", "value": "Play with bubbles", "emoji": "🫧"}
+    {"id": 1, "label": "Ball", "value": "Playing ball", "emoji": "🎾", "solo": "is playing with the ball", "group": "are playing ball together"},
+    {"id": 2, "label": "Wrestling", "value": "Wrestling", "emoji": "🤼", "solo": "is wrestling", "group": "are wrestling each other"},
+    {"id": 3, "label": "Romping", "value": "Romping around", "emoji": "🐾", "solo": "is romping around", "group": "are romping around together"},
+    {"id": 4, "label": "Toys", "value": "Exploring toys", "emoji": "🧸", "solo": "is exploring the toys", "group": "are exploring the toys together"},
+    {"id": 5, "label": "Chasing", "value": "Chasing each other", "emoji": "🏃", "solo": "is being chased", "group": "are chasing each other around"},
+    {"id": 6, "label": "Exploring", "value": "Exploring the room", "emoji": "🔎", "solo": "is exploring the room", "group": "are exploring the room together"},
+    {"id": 7, "label": "Puzzle", "value": "Puzzle toy", "emoji": "🧩", "solo": "is working on a puzzle toy", "group": "are working on puzzle toys"},
+    {"id": 8, "label": "Zoomies", "value": "Zoomies", "emoji": "⚡", "solo": "has the zoomies", "group": "all have the zoomies"},
+    {"id": 9, "label": "Lone wolf", "value": "Lone wolf", "emoji": "🦊", "solo": "is being a lone wolf", "group": "are each doing their own thing"},
+    {"id": 10, "label": "Bubbles", "value": "Play with bubbles", "emoji": "🫧", "solo": "is playing with bubbles", "group": "are playing with bubbles together"}
   ],
   "rest": [
-    {"id": 1, "label": "Resting", "value": "Resting", "emoji": "😴"},
-    {"id": 2, "label": "Napping", "value": "Napping", "emoji": "🛌"},
-    {"id": 3, "label": "Cuddle pile", "value": "Cuddle pile", "emoji": "🤗"},
-    {"id": 4, "label": "Calm walk", "value": "Calm walk", "emoji": "🚶"},
-    {"id": 5, "label": "Calm settle", "value": "Calm settle", "emoji": "🧘"},
-    {"id": 6, "label": "On playset", "value": "Resting on playset", "emoji": "🪜"},
-    {"id": 7, "label": "With counselor", "value": "Snuggling with counselor", "emoji": "🫶"}
+    {"id": 1, "label": "Resting", "value": "Resting", "emoji": "😴", "solo": "is resting", "group": "are resting together"},
+    {"id": 2, "label": "Napping", "value": "Napping", "emoji": "🛌", "solo": "is napping", "group": "are napping together"},
+    {"id": 3, "label": "Cuddle pile", "value": "Cuddle pile", "emoji": "🤗", "solo": "is cuddling up", "group": "are in a cuddle pile"},
+    {"id": 4, "label": "Calm walk", "value": "Calm walk", "emoji": "🚶", "solo": "is on a calm walk", "group": "are on a calm walk together"},
+    {"id": 5, "label": "Calm settle", "value": "Calm settle", "emoji": "🧘", "solo": "is calmly settling down", "group": "are calmly settling down"},
+    {"id": 6, "label": "On playset", "value": "Resting on playset", "emoji": "🪜", "solo": "is resting on the playset", "group": "are resting on the playset"},
+    {"id": 7, "label": "With counselor", "value": "Snuggling with counselor", "emoji": "🫶", "solo": "is snuggling with a counselor", "group": "are snuggling with a counselor"}
   ],
   "misc": [
-    {"id": 1, "label": "Peed", "value": "Peed", "emoji": "🚰"},
-    {"id": 2, "label": "Pooped", "value": "Pooped", "emoji": "💩"},
-    {"id": 3, "label": "Water", "value": "Drinking water", "emoji": "🫗"},
-    {"id": 4, "label": "Barking", "value": "Barking", "emoji": "🗣️"},
-    {"id": 5, "label": "Guarding", "value": "Guarding the room", "emoji": "🛡️"},
-    {"id": 6, "label": "Treats", "value": "Treats", "emoji": "🦴"}
+    {"id": 1, "label": "Peed", "value": "Peed", "emoji": "🚰", "solo": "peed", "group": "all went potty"},
+    {"id": 2, "label": "Pooped", "value": "Pooped", "emoji": "💩", "solo": "pooped", "group": "all pooped"},
+    {"id": 3, "label": "Water", "value": "Drinking water", "emoji": "🫗", "solo": "is drinking water", "group": "are drinking water"},
+    {"id": 4, "label": "Barking", "value": "Barking", "emoji": "🗣️", "solo": "is barking", "group": "are barking"},
+    {"id": 5, "label": "Guarding", "value": "Guarding the room", "emoji": "🛡️", "solo": "is guarding the room", "group": "are guarding the room"},
+    {"id": 6, "label": "Treats", "value": "Treats", "emoji": "🦴", "solo": "got a treat", "group": "all got treats"}
   ]
 }

@@ -1,8 +1,15 @@
 {
   "title": "Dog Profile Actions",
-  "version": "2.0.0",
-  "updated": "2025-06-01T09:00:00Z",
+  "version": "2.0.1",
+  "updated": "2025-12-06",
   "changelog": [
+    {
+      "version": "2.0.1",
+      "date": "2025-12-06",
+      "changes": [
+        "Added play with bubbles as 10."
+      ]
+    },
     {
       "version": "2.0.0",
       "date": "2025-06-01",
@@ -21,7 +28,8 @@
     {"id": 6, "label": "Exploring", "value": "Exploring the room", "emoji": "🔎"},
     {"id": 7, "label": "Puzzle", "value": "Puzzle toy", "emoji": "🧩"},
     {"id": 8, "label": "Zoomies", "value": "Zoomies", "emoji": "⚡"},
-    {"id": 9, "label": "Lone wolf", "value": "Lone wolf", "emoji": "🦊"}
+    {"id": 9, "label": "Lone wolf", "value": "Lone wolf", "emoji": "🦊"},
+    {"id": 10, "label": "Bubbles", "value": "Play with bubbles", "emoji": "🫧"}
   ],
   "rest": [
     {"id": 1, "label": "Resting", "value": "Resting", "emoji": "😴"},

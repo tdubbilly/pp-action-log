@@ -4,6 +4,13 @@
   "updated": "2025-12-06",
   "changelog": [
     {
+      "version": "2.0.2",
+      "date": "2025-12-06",
+      "changes": [
+        "Added Treats to misc 6."
+      ]
+    },
+    {
       "version": "2.0.1",
       "date": "2025-12-06",
       "changes": [
@@ -45,6 +52,7 @@
     {"id": 2, "label": "Pooped", "value": "Pooped", "emoji": "💩"},
     {"id": 3, "label": "Water", "value": "Drinking water", "emoji": "🫗"},
     {"id": 4, "label": "Barking", "value": "Barking", "emoji": "🗣️"},
-    {"id": 5, "label": "Guarding", "value": "Guarding the room", "emoji": "🛡️"}
+    {"id": 5, "label": "Guarding", "value": "Guarding the room", "emoji": "🛡️"},
+    {"id": 6, "label": "Treats", "value": "Treats", "emoji": "🦴"}
   ]
 }
